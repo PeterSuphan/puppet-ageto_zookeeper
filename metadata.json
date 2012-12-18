@@ -1,0 +1,27 @@
+{
+  "name": "gunnar-ageto_zookeeper",
+  "author": "Gunnar Wagenknecht",
+  "description": "",
+  "license": "None",
+  "project_page": "",
+  "source": "",
+  "summary": "Module for ZooKeeper installation at AGETO",
+  "version": "1.0",
+  "checksums": {
+    "Modulefile": "26cd17259c3f605142c3a565450c33ca",
+    "README.markdown": "7b572af3393e754716e4ecd8dd73583f",
+    "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
+    "files/tools/zktop.py": "0c2c2718723c3b56dbffefab5bfcd64a",
+    "manifests/init.pp": "47171037bdc7b2307226910448bcbd7d",
+    "manifests/services.pp": "b7f2f1078b2f9cddc24143659e2ec560",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "spec/spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+    "templates/conf/java.env.erb": "dd0001ab6952395a6308aaf7cbdf1e70",
+    "templates/conf/log4j.properties.erb": "dc93dcd49f203f63648c72168be76565",
+    "templates/conf/zoo.cfg.erb": "4ac7e3cc7b5aab204472430a46ccd019",
+    "templates/service/zookeeper_service_darwin.erb": "7d47277a739952846ba1fc319a782fe5",
+    "templates/service/zookeeper_service_debian.erb": "35accb51a8f3c5c83c2eac79bfc30fad",
+    "templates/service/zookeeper_service_redhat.erb": "48ae310d133816e401bcb0bb245dc220"
+  },
+  "dependencies": []
+}
