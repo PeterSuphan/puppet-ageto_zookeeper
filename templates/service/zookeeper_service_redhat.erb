@@ -38,7 +38,7 @@ start() {
   daemon --user ${ZOOUSER} ${ZOOBINDIR}/zkServer.sh start
   RETVAL=$?
   echo
-  [ $RETVAL -eq 0 ] && touch /var/lock/subsys/zookeeper
+  [ $RETVAL -eq 0 ] && touch /var/lock/subsys/zookeeper $PIDFILE
   return $RETVAL
 }
 
